@@ -1,0 +1,30 @@
+body {
+    background-color: #FFF5E0;
+    color: #C70039;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    margin: 0;
+    }
+
+h1 {
+    color: #FF6969;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #cc5454;
+    }
+
+h2 {
+    font-size: 1.5em;
+}
+
+a:link,
+a:visited {
+    color: #141E46;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.table_nutrition{
+    border:#C70039 3px solid;
+}
