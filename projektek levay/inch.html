@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu-HU">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width" initial-scale="1.0" />
+    <link href="Css/Stylesheet.css" type="text/css" rel="Stylesheet"/>
+    <title>Mértékegység átváltás</title>
+</head>
+
+<body>
+
+    <div class="flex_container">
+    <script src="Script/inch.js"></script>
+    <h1>Mértékegységek átváltása</h1>
+    <div>
+    <h2>font -> Kilogramm</h2>
+    </div>
+
+
+    <div>
+    <p>
+        <input id="inputInch" type="number" placeholder="Inch"
+    oninput="InchcentimeterKonverter(this.value)" onchange="InchcentimeterKonverter(this.value)">
+    cm: <span id="outputcentimeter"></span>
+    </p>
+    </div>
+
+    
+    <div>
+    <h2>inch 
+    
+    </h2>
+
+    </div>
+
+    <div>
+    <p>
+    <input id="inputCentimeter" type="number" placeholder="centimeter"
+    oninput="centimeterInchKonverter(this.value)" onchange="centimeterInchKonverter(this.value)">
+    inch: <span id="outputInch"></span>
+    </p>
+    </div>
+
+</body>
+</html>
